@@ -1,4 +1,4 @@
-import { transformTSX } from "./plugins/vite/transformTSX";
+import { vitePluginVueact } from "vite-plugin-vueact"
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   css: ["~/assets/css/globals.css"],
   vite: {
     plugins: [
-      transformTSX()
-    ],
+      vitePluginVueact()
+    ]
   }
 })

@@ -1,4 +1,4 @@
-import Layout from "./layouts";
+import { NuxtLayout, NuxtPage } from "~/composables/nuxt"
 
 function App() {
   const { initDarkMode } = useDarkMode();
@@ -6,9 +6,7 @@ function App() {
 
   return (
     <NuxtLayout>
-      <Layout>
-        <NuxtPage />
-      </Layout>
+      <NuxtPage />
     </NuxtLayout>
   )
 }

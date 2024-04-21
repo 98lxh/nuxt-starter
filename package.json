@@ -17,6 +17,7 @@
     "daisyui": "^3.9.4",
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
+    "vite-plugin-vueact": "^0.0.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },

@@ -26,6 +26,9 @@ dependencies:
   pinia:
     specifier: ^2.1.7
     version: 2.1.7(typescript@5.4.5)(vue@3.4.23)
+  vite-plugin-vueact:
+    specifier: ^0.0.1
+    version: 0.0.1(typescript@5.4.5)
   vue:
     specifier: ^3.4.21
     version: 3.4.23(typescript@5.4.5)
@@ -8617,6 +8620,14 @@ packages:
       vite: 5.2.9(@types/node@20.12.7)
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /vite-plugin-vueact@0.0.1(typescript@5.4.5):
+    resolution: {integrity: sha512-gkY6Y1djaZhlHuqVhWAS8nltsCI8NHsHffPq9LE/3UT93Op7bTYtpSYPBv0GL94XWbZHTDRo6CYiWm473xqWwA==}
+    dependencies:
+      vue: 3.4.23(typescript@5.4.5)
+    transitivePeerDependencies:
+      - typescript
     dev: false
 
   /vite@5.2.9(@types/node@20.12.7):
