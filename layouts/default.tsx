@@ -1,5 +1,4 @@
 import Header from "~/components/Header";
-import { NuxtPage } from "~/composables/nuxt";
 
 function Layout() {
   return (

@@ -1,7 +1,7 @@
-import { NuxtLayout, NuxtPage } from "~/composables/nuxt"
+// import { NuxtLayout, NuxtPage } from "~/composables/nuxt"
 
 function App() {
-  const { initDarkMode } = useDarkMode();
+  const { initDarkMode } = useDarkMode()
   onMounted(() => initDarkMode())
 
   return (

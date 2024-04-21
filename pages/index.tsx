@@ -1,7 +1,6 @@
-
 function Index() {
   return (
-    <div>111</div>
+    <div></div>
   )
 }
 
